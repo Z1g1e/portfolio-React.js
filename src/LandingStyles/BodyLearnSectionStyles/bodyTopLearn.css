@@ -1,0 +1,82 @@
+.body-top-learn--spaced {
+    margin: 20px 0px;
+}
+
+.body-top-learn--second {
+    margin: 45px;
+}
+
+.body-top-learn {
+    display: flex;
+}
+
+.body-top-content-container {
+    transform: translateY(-40px);
+}
+
+.body-learn-hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9vw;
+    margin-right: 3.8vw;
+}
+
+.body-top-learn_title {
+    color: #4D4D4D;
+    width: 600px;
+    font-size: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 100px;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 16px;
+    
+}
+
+.body-top-learn_descript {
+    font-size: 14px;
+    color: #717171;
+    width: 550px;
+    text-align: start;
+}
+
+.body-top-learn_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 151px;
+    height: 52px;
+    display: block;
+    background-color: #4caf4f;
+    color: #fff;
+    border: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 32px;
+    transition: box-shadow 0.3s ease;
+}
+
+.body-top-learn_btn {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1250px) {
+    .body-top-learn {
+        margin-left: 3vw;
+    }
+
+    .body-learn-hero-img {
+        margin-left: 0vw;
+        margin-right: 1vw;
+    }
+
+    .body-top-learn--second {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-left: 3vw;
+    }
+}

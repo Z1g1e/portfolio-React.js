@@ -1,0 +1,38 @@
+.community-card-list-comp-element {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.community-card-one {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+.community-title-card {
+    font-size: 36px;
+    display: flex;
+    justify-content: start;
+    width: 255px;
+    margin-left: 25px;
+}
+
+.community-subtitle-list {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+.community-subtitle-card-one {
+    display: flex;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.community-subtitle-card-two {
+    display: flex;
+    width: 290px;
+    margin-left: 12px;
+}

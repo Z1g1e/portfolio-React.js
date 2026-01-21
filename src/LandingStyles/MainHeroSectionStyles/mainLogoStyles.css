@@ -1,0 +1,28 @@
+.main-logo-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+    margin-left: 8vw;
+}
+
+.main-logo-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.main-logo-hero-image {
+    margin-left: -70px;
+    margin-top: -90px;
+    /* position: relative;
+    margin-top: -65px;
+    margin-right: -10vw; */
+}
+
+@media (max-width: 1400px) {
+    .main-logo-hero-image {
+        visibility: hidden;
+    }
+
+}

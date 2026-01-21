@@ -1,0 +1,37 @@
+.footer-first-chp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F7FA;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.footer-first-chp-title {
+    width: 700px;
+    font-size: 68px;
+    font-weight: 600;
+    margin-top: -32px;
+    color: #263238;
+}
+
+.footer-first-chp-btn {
+    width: 184px;
+    height: 53px;
+    border: 0px;
+    margin-top: -30px;
+    color: #fff;
+    background-color: #4CAF4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease;
+}
+
+.footer-first-chp-btn {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

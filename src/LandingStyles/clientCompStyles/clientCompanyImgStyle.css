@@ -1,0 +1,13 @@
+.client-logo-list {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+
+/* .client-img-one {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+} */

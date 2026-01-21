@@ -1,0 +1,83 @@
+.main-lesson-text-container {
+    position: relative;
+    margin-top: -510px;
+    padding-bottom: -40px;
+    margin-right: 52vw;
+}
+
+.main-title-in-container {
+    width: 50vw;
+}
+
+.main-text-element {
+    margin: 0px;
+}
+
+.main-text-element {
+    display: flex;
+    width: 700px;
+    font-size: 72px;
+    font-weight: 700;
+    margin-left: 10.65vw;
+    margin-top: -50px;
+    color: #4d4d4d;
+}
+
+.main-second-text-element {
+    display: flex;
+    width: 500px;
+    font-size: 72px;
+    font-weight: 700;
+    margin-left: 10.7vw;
+    margin-top: -50px;
+    color: #4caf4f;
+}
+
+.main-text-description {
+    display: flex;
+    width: 580px;
+    margin-bottom: -50px;
+    margin-left: 10.85vw;
+    font-size: 18px;
+    color: #717171;
+}
+
+.main-repeat-button {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4caf4f;
+    color: #ffffff;
+    border: 0px;
+    margin-top: 80px;
+    margin-left: 10.8vw;
+    width: 130px;
+    height: 54px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.main-repeat-button {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Lesson image */
+.main-page-image-container {
+    /* position: absolute; */
+    /* z-index: 1; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* right: 300px;
+    top: 300px; */
+    background-color: #f5f7fa;
+    margin-right: 150px;
+    margin-top: -310px;
+}
+
+.main-nav-logo-img {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 5px;
+}

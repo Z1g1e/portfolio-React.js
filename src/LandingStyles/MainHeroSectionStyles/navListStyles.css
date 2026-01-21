@@ -1,0 +1,43 @@
+.nav-ul-main {
+    width: 500px;
+    display: flex;
+    gap: 53px;
+    list-style: none;
+    margin-top: -54.2px;
+    justify-content: center;
+    margin-left: 30.5vw;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #18191f;
+}
+
+.nav-item-home {
+
+}
+
+@media (max-width: 1400px) {
+    .nav-item {
+        display: none;
+    }
+
+    .nav-item-home {
+        display: flex;
+        /* margin-left: 45.5vw; */
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .nav-ul-main {
+        width: 51vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav-ul-main {
+        width: 63vw;
+    }
+}

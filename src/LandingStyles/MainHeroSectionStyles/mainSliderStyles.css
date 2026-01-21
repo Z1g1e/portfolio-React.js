@@ -1,0 +1,32 @@
+.main-slider-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 85px;
+    margin-right: 50px;  
+}
+
+.main-slider-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.main-slider-list button{
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 34px;
+    cursor: pointer;
+    background-color: #c2e1c7;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .main-slider-list .button-pos-one {
+    background-color: #4caf4f;
+} */
+
+.main-slider-container button.active {
+    background-color: #4caf4f;
+}

@@ -1,0 +1,111 @@
+.body-customers-container {
+    background-color: #F5F7FA;
+    height: 400px;
+    /* width: 100.4%; прибирає невеликий відступ у кінці компонента */
+}
+
+.body-customers-main-img {
+    height: 400px;
+    margin-left: 9.5vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.body-main-customers-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 330px;
+}
+
+.body-customers-main-info-section {
+    margin-left: 37.8vw;
+    margin-top: -376px;
+    width: 700px;
+    height: 330px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+}
+
+.body-customers-main-info {
+    color: #717171;
+}
+
+.body-customers-main-title {
+    margin-top: 0px;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    color: #4CAF4F;
+}
+
+.body-customers-main-description {
+    color: #89939E;
+    margin-top: 0px;
+    margin-left: 1px;
+}
+
+
+.body-customers-main-li {
+    margin-left: 35vw;
+    margin-top: -35px;
+}
+
+.body-customers-img-li {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 40px;
+    /* user-select: none; краще не використовувати якщо є можливість (не підтримується у деяких браузерах) */
+}
+
+.body-customers-main-btn {
+    background-color: #F5F7FA;
+    color: #4CAF4F;
+    width: 220px;
+    height: 44px;
+    margin-left: 600px;
+    margin-top: -86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width:1350px) {
+    .body-customers-main-li {
+        margin-left: 34.4vw;
+    }
+}
+
+@media (max-width:1255px) {
+    .body-customers-main-info-section {
+        margin-left: 20vw;
+    }
+
+    .body-customers-main-li {
+        margin-left: 16.2vw;
+    }
+
+    .body-customers-img-li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-left: 0px;
+    }
+
+    .body-main-customers-img {
+        display: none;
+    }
+
+}
