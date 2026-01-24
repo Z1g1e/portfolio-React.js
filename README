@@ -1,17 +1,19 @@
-# React Landing Page with Sign Up / Login
+# React Web Application with Routing and Form Logic
 
-A medium-large single-page React application with a landing page (6 sections) and additional Sign Up and Login pages.  
-Implemented client-side routing using React Router and basic form validation.  
-Built reusable components and structured the application using modern React best practices.
+A medium-sized single-page React application featuring a multi-section landing page and additional Sign Up and Login pages.
+The project focuses on component-based architecture, client-side routing using React Router, and basic JavaScript-driven form logic (email validation and event handling).
+Built with reusable functional components and structured following modern React best practices.
 
 # Live Demo
 (https://frontend-portfolio-react-website.netlify.app/)
 
 # Features
-- Large landing page (6 sections: navigation, hero, multiple body sections, footer)
-- Sign Up & Login pages (client-side validation)
+- Multi-section landing page (navigation, hero, body sections, footer)
+- Client-side routing (React Router)
+- Sign Up & Login pages with basic form validation
+- JavaScript-driven UI interactions (email validation, button animation)
 - Component-based architecture
-- Responsive design for desktop.
+- Responsive layout for desktop screens
 - Clean and maintainable code structure
 
 # How to Run Locally
